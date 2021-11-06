@@ -1,0 +1,10 @@
+def Sorting(string):
+    string = string.upper()
+    new_string = list((kv.split(':') for kv in string.split(";")))
+    sort = sorted(new_string, key=lambda new_string: (new_string[1], new_string[0]))
+    return sort
+
+s = "Fired:Corwill;Wilfred:Corwill;Barney:TornBull;Betty:Tornbull;Alfred:Tornbull;Raphael:Corwill;Alfred:Corwill"
+sort_string = Sorting(s)
+for i in sort_string:
+    print(f'({i[1]},{i[0]})')

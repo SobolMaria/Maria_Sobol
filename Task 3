@@ -1,0 +1,15 @@
+def digital_root(n):
+    while n > 9:
+        n = sum_digits(n)
+    return n
+def sum_digits(n):
+    sum = 0
+    while n > 0:
+        digit = n % 10
+        sum = sum + digit
+        n = n // 10
+    return sum
+print(digital_root(16))
+print(digital_root(942))
+print(digital_root(132189))
+print(digital_root(493193))
