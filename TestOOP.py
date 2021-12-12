@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+
 class MyTest:
     def init(self):
         self.driver = webdriver.Chrome()
