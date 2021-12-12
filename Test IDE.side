@@ -1,0 +1,371 @@
+{
+  "id": "9bcf3d01-e20d-4ffd-8210-3f3a353888a4",
+  "version": "2.0",
+  "name": "1",
+  "url": "https://opensource-demo.orangehrmlive.com",
+  "tests": [{
+    "id": "24959177-17d7-44a6-b25e-d2cb492ddd03",
+    "name": "TestIDE",
+    "commands": [{
+      "id": "90c33a2f-96f9-453e-8b5a-e3d80705821b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fe09bc4-05bd-414d-a94e-01d385b4afd3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "854x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f7a536b-6c6c-4bdc-82c7-f5b6b6fae719",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtUsername",
+      "targets": [
+        ["id=txtUsername", "id"],
+        ["name=txtUsername", "name"],
+        ["css=#txtUsername", "css:finder"],
+        ["xpath=//input[@id='txtUsername']", "xpath:attributes"],
+        ["xpath=//div[@id='divUsername']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00528ea3-6ff0-44ae-9191-419b16160d11",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtUsername",
+      "targets": [
+        ["id=txtUsername", "id"],
+        ["name=txtUsername", "name"],
+        ["css=#txtUsername", "css:finder"],
+        ["xpath=//input[@id='txtUsername']", "xpath:attributes"],
+        ["xpath=//div[@id='divUsername']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "4ed9c49b-8491-4828-b06d-6081909513ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtPassword",
+      "targets": [
+        ["id=txtPassword", "id"],
+        ["name=txtPassword", "name"],
+        ["css=#txtPassword", "css:finder"],
+        ["xpath=//input[@id='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='divPassword']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c5f43a6-f34b-4bbf-96ea-8e124d78a131",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtPassword",
+      "targets": [
+        ["id=txtPassword", "id"],
+        ["name=txtPassword", "name"],
+        ["css=#txtPassword", "css:finder"],
+        ["xpath=//input[@id='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='divPassword']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "admin123"
+    }, {
+      "id": "db9fa739-ef4d-484c-846d-cf22e32eb814",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnLogin",
+      "targets": [
+        ["id=btnLogin", "id"],
+        ["name=Submit", "name"],
+        ["css=#btnLogin", "css:finder"],
+        ["xpath=//input[@id='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='divLoginButton']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d07fc2b-1e8e-430b-b57b-116f69d62b2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=menu_admin_viewPayGrades",
+      "targets": [
+        ["id=menu_admin_viewPayGrades", "id"],
+        ["linkText=Pay Grades", "linkText"],
+        ["css=#menu_admin_viewPayGrades", "css:finder"],
+        ["xpath=//a[contains(text(),'Pay Grades')]", "xpath:link"],
+        ["xpath=//a[@id='menu_admin_viewPayGrades']", "xpath:attributes"],
+        ["xpath=//ul[@id='mainMenuFirstLevelUnorderedList']/li/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/admin/viewPayGrades')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pay Grades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e75f457-e45d-4ef4-9484-25926c5e8b61",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAdd",
+      "targets": [
+        ["id=btnAdd", "id"],
+        ["name=btnAdd", "name"],
+        ["css=#btnAdd", "css:finder"],
+        ["xpath=//input[@id='btnAdd']", "xpath:attributes"],
+        ["xpath=//form[@id='frmList_ohrmListComponent']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0732ced0-e907-4cef-bbf6-7ffd1f9b6011",
+      "comment": "",
+      "command": "click",
+      "target": "id=payGrade_name",
+      "targets": [
+        ["id=payGrade_name", "id"],
+        ["name=payGrade[name]", "name"],
+        ["css=#payGrade_name", "css:finder"],
+        ["xpath=//input[@id='payGrade_name']", "xpath:attributes"],
+        ["xpath=//form[@id='frmPayGrade']/fieldset/ol/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "148212a9-3d0e-4270-8360-a5f25e281279",
+      "comment": "",
+      "command": "type",
+      "target": "id=payGrade_name",
+      "targets": [
+        ["id=payGrade_name", "id"],
+        ["name=payGrade[name]", "name"],
+        ["css=#payGrade_name", "css:finder"],
+        ["xpath=//input[@id='payGrade_name']", "xpath:attributes"],
+        ["xpath=//form[@id='frmPayGrade']/fieldset/ol/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "user"
+    }, {
+      "id": "df245cd0-6518-4269-af51-7b68e4bda371",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSave",
+      "targets": [
+        ["id=btnSave", "id"],
+        ["name=btnSave", "name"],
+        ["css=#btnSave", "css:finder"],
+        ["xpath=//input[@id='btnSave']", "xpath:attributes"],
+        ["xpath=//form[@id='frmPayGrade']/fieldset/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdc59754-7e02-49a6-9651-193bc71c1dda",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnAddCurrency",
+      "targets": [
+        ["id=btnAddCurrency", "id"],
+        ["css=#btnAddCurrency", "css:finder"],
+        ["xpath=//input[@id='btnAddCurrency']", "xpath:attributes"],
+        ["xpath=//p[@id='addDeleteBtnDiv']/input", "xpath:idRelative"],
+        ["xpath=//form/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ac02530-e8ba-4d24-8adb-d3f353ace0f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=payGradeCurrency_currencyName",
+      "targets": [
+        ["id=payGradeCurrency_currencyName", "id"],
+        ["name=payGradeCurrency[currencyName]", "name"],
+        ["css=#payGradeCurrency_currencyName", "css:finder"],
+        ["xpath=//input[@id='payGradeCurrency_currencyName']", "xpath:attributes"],
+        ["xpath=//ol[@id='addPaneCurrency']/li/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/fieldset/ol/li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aab7f10c-3729-4bdb-8224-a3271bf64032",
+      "comment": "",
+      "command": "click",
+      "target": "id=payGradeCurrency_currencyName",
+      "targets": [
+        ["id=payGradeCurrency_currencyName", "id"],
+        ["name=payGradeCurrency[currencyName]", "name"],
+        ["css=#payGradeCurrency_currencyName", "css:finder"],
+        ["xpath=//input[@id='payGradeCurrency_currencyName']", "xpath:attributes"],
+        ["xpath=//ol[@id='addPaneCurrency']/li/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/fieldset/ol/li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e213ae07-c23b-467b-b4d1-76e4006ff4a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=payGradeCurrency_currencyName",
+      "targets": [
+        ["id=payGradeCurrency_currencyName", "id"],
+        ["name=payGradeCurrency[currencyName]", "name"],
+        ["css=#payGradeCurrency_currencyName", "css:finder"],
+        ["xpath=//input[@id='payGradeCurrency_currencyName']", "xpath:attributes"],
+        ["xpath=//ol[@id='addPaneCurrency']/li/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/fieldset/ol/li/input", "xpath:position"]
+      ],
+      "value": "a"
+    }, {
+      "id": "668e7ece-77e4-4205-ae47-c817d5913a4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ac_even:nth-child(1)",
+      "targets": [
+        ["css=.ac_even:nth-child(1)", "css:finder"],
+        ["xpath=//div[4]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'AFN - Afghanistan Afghani')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02f6b36a-81d7-4d33-a73e-5567c9cf07a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=payGradeCurrency_minSalary",
+      "targets": [
+        ["id=payGradeCurrency_minSalary", "id"],
+        ["name=payGradeCurrency[minSalary]", "name"],
+        ["css=#payGradeCurrency_minSalary", "css:finder"],
+        ["xpath=//input[@id='payGradeCurrency_minSalary']", "xpath:attributes"],
+        ["xpath=//ol[@id='addPaneCurrency']/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aa4a14c-7995-4364-876d-4f318600e825",
+      "comment": "",
+      "command": "type",
+      "target": "id=payGradeCurrency_minSalary",
+      "targets": [
+        ["id=payGradeCurrency_minSalary", "id"],
+        ["name=payGradeCurrency[minSalary]", "name"],
+        ["css=#payGradeCurrency_minSalary", "css:finder"],
+        ["xpath=//input[@id='payGradeCurrency_minSalary']", "xpath:attributes"],
+        ["xpath=//ol[@id='addPaneCurrency']/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "17d09db3-f049-44b9-bdbe-b958fa1215bb",
+      "comment": "",
+      "command": "click",
+      "target": "id=payGradeCurrency_maxSalary",
+      "targets": [
+        ["id=payGradeCurrency_maxSalary", "id"],
+        ["name=payGradeCurrency[maxSalary]", "name"],
+        ["css=#payGradeCurrency_maxSalary", "css:finder"],
+        ["xpath=//input[@id='payGradeCurrency_maxSalary']", "xpath:attributes"],
+        ["xpath=//ol[@id='addPaneCurrency']/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f77de2c-7428-4ecc-a882-a3120f34333a",
+      "comment": "",
+      "command": "type",
+      "target": "id=payGradeCurrency_maxSalary",
+      "targets": [
+        ["id=payGradeCurrency_maxSalary", "id"],
+        ["name=payGradeCurrency[maxSalary]", "name"],
+        ["css=#payGradeCurrency_maxSalary", "css:finder"],
+        ["xpath=//input[@id='payGradeCurrency_maxSalary']", "xpath:attributes"],
+        ["xpath=//ol[@id='addPaneCurrency']/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": "10000"
+    }, {
+      "id": "5fba2008-e40f-4346-9d1f-c041426c9af3",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSaveCurrency",
+      "targets": [
+        ["id=btnSaveCurrency", "id"],
+        ["name=btnSaveCurrency", "name"],
+        ["css=#btnSaveCurrency", "css:finder"],
+        ["xpath=//input[@id='btnSaveCurrency']", "xpath:attributes"],
+        ["xpath=//p[@id='actionButtons']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/fieldset/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a255ccf-ee75-440f-ad0d-bcb21d30c0f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=menu_admin_viewPayGrades",
+      "targets": [
+        ["id=menu_admin_viewPayGrades", "id"],
+        ["linkText=Pay Grades", "linkText"],
+        ["css=#menu_admin_viewPayGrades", "css:finder"],
+        ["xpath=//a[contains(text(),'Pay Grades')]", "xpath:link"],
+        ["xpath=//a[@id='menu_admin_viewPayGrades']", "xpath:attributes"],
+        ["xpath=//ul[@id='mainMenuFirstLevelUnorderedList']/li/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/admin/viewPayGrades')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pay Grades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b753e446-250f-488e-936c-e2394ed45fe9",
+      "comment": "",
+      "command": "click",
+      "target": "id=ohrmList_chkSelectRecord_69",
+      "targets": [
+        ["id=ohrmList_chkSelectRecord_69", "id"],
+        ["css=#ohrmList_chkSelectRecord_69", "css:finder"],
+        ["xpath=//input[@id='ohrmList_chkSelectRecord_69']", "xpath:attributes"],
+        ["xpath=//table[@id='resultTable']/tbody/tr[7]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59fb357f-e097-4e34-9bee-01bc85b5817e",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnDelete",
+      "targets": [
+        ["id=btnDelete", "id"],
+        ["name=btnDelete", "name"],
+        ["css=#btnDelete", "css:finder"],
+        ["xpath=//input[@id='btnDelete']", "xpath:attributes"],
+        ["xpath=//form[@id='frmList_ohrmListComponent']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//form/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92a63b62-65de-4929-a3f1-e63a58cee026",
+      "comment": "",
+      "command": "click",
+      "target": "id=dialogDeleteBtn",
+      "targets": [
+        ["id=dialogDeleteBtn", "id"],
+        ["css=#dialogDeleteBtn", "css:finder"],
+        ["xpath=//input[@id='dialogDeleteBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='deleteConfModal']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e121c1cb-1440-43f4-922a-37886b818cc7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["24959177-17d7-44a6-b25e-d2cb492ddd03"]
+  }],
+  "urls": ["https://opensource-demo.orangehrmlive.com/"],
+  "plugins": []
+}
