@@ -33,4 +33,4 @@ test.enter_info('/html/body/div[1]/div[3]/div[2]/div[2]/form/fieldset/ol/li[1]/i
 test.enter_info('/html/body/div[1]/div[3]/div[2]/div[2]/form/fieldset/ol/li[2]/input', '1000')
 test.enter_info('/html/body/div[1]/div[3]/div[2]/div[2]/form/fieldset/ol/li[3]/input', '10000')
 test.click_button('/html/body/div[1]/div[3]/div[2]/div[2]/form/fieldset/p/input[1]')
-test.delite_button("//*[contains(text(), 'Mariia Sobol')]")
+test.delete_button("//*[contains(text(), 'Mariia Sobol')]")
