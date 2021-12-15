@@ -36,18 +36,3 @@ test.enter_info('/html/body/div[1]/div[3]/div[2]/div[2]/form/fieldset/ol/li[2]/i
 test.enter_info('/html/body/div[1]/div[3]/div[2]/div[2]/form/fieldset/ol/li[3]/input', '10000')
 test.click_button('/html/body/div[1]/div[3]/div[2]/div[2]/form/fieldset/p/input[1]')
 test.delete_button("//*[contains(text(), 'Mariia Sobol')]")
-
-@given('I search for a valid account')
-def step_impl(context):
-    context.browser.get('https://opensource-demo.orangehrmlive.com/')
-    form = get_element(context.browser, tag='form')
-    get_element(form, Username="mmmm").send_keys('666')
-    form.submit()
-
-@then('I will see the account details')
-def step_impl(context):
-    elements = find_elements(context.browser, id='no-account')
-    eq_(elements, [], 'account not found')
-    h = get_element(context.browser, id='account-head')
-    ok_(h.text.startswith("Account 666"),
-        'Heading %r has wrong text' % h.text)
