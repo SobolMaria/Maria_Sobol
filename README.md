@@ -10,6 +10,9 @@
 -**Тest** is a test script exported as a .py file from Selenium IDE
 
 
--**TestOOP** is a test script using the principles of OOP and Design Patterns
+-**TestOOP** is a test script using the principles of OOP
+
+
+Download **chromedriver** to succesfully use **TestOOP**
 
 
