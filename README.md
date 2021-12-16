@@ -1,7 +1,7 @@
 # Maria_Sobol
 
 
--**TestOOP** is a test script using the principles of OOP
+-**TestOOP** is a test script using the principles of OOP.
 Download **chromedriver** to succesfully use **TestOOP**
 
 
