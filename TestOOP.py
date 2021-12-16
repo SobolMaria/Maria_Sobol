@@ -38,9 +38,7 @@ class MyTest:
         self.srt = "ohrmList_chkSelectRecord_"
         self.srt += str(self.value)
         self.driver.find_element(By.ID, self.srt).click()
-        time.sleep(2)
         self.driver.find_element(By.XPATH, '//*[@id="btnDelete"]').click()
-        time.sleep(2)
         self.driver.find_element(By.XPATH, '//*[@id="dialogDeleteBtn"]').click()
 
 username = 'Admin'
