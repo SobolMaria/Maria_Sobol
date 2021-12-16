@@ -5,7 +5,7 @@
 Download **chromedriver** to succesfully use **TestOOP**
 
 
--Download **Тest IDE** to run the code
-
-
 -**Тest** is a test script exported as a .py file from Selenium IDE
+
+
+-Download **Тest IDE** to run the code
