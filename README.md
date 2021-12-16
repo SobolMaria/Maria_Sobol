@@ -1,4 +1,4 @@
-# Maria_Sobol
+# Selenium
 
 
 -**TestOOP** is a test script using the principles of OOP.
