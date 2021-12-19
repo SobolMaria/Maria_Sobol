@@ -9,7 +9,7 @@ download and install dropbox
 open visual studio code and create file Mariia_Sobol.py
 
 
-in TeamCity in build step
+in TeamCity build step
 
 
 Runner type - File
