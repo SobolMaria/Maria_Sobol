@@ -1,8 +1,5 @@
 # WebAPI
 
-Refer to this API: https://www.dropbox.com/developers/documentation/http/documentation
-
-
 Create scenario (Upload, GetFileMetadata, Delete File) using information from the documentation https://www.dropbox.com/developers/documentation/http/documentation
 
 
